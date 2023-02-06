@@ -56,6 +56,5 @@ class EditArticleController extends GetxController {
     titleController.clear();
     descriptionController.clear();
     dateController.clear();
-    articleYearController.clear();
   }
 }
