@@ -43,14 +43,14 @@ class DetailArticleView extends GetView<DetailArticleController> {
       //     child: const Text('EDIT'),
       //   ),
       // ),
-      body: SingleChildScrollView(
-        child: Container(
-          height: displayHeight(context) * 1,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage("assets/images/background.png"),
-                fit: BoxFit.cover),
-          ),
+      body: Container(
+        height: displayHeight(context) * 1,
+        decoration: BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage("assets/images/background.png"),
+              fit: BoxFit.cover),
+        ),
+        child: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Column(

@@ -112,7 +112,7 @@ class HomeView extends GetView<HomeController> {
           onRefresh: controller.refreshData,
           child: SingleChildScrollView(
             child: Container(
-              height: displayHeight(context) * 1,
+              // height: displayHeight(context) * 1,
               decoration: BoxDecoration(
                 image: DecorationImage(
                     image: AssetImage("assets/images/background.png"),
